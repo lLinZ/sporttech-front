@@ -103,10 +103,6 @@ export const ThemeChanger = () => {
         }
         setChanging(false);
     }
-
-    const changeLocalTheme = (theme: string) => {
-    }
-
     useEffect(() => {
         setTimeout(() => setChanging(false), 2000);
     }, []);
